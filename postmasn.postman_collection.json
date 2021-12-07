@@ -9,7 +9,7 @@
 			"name": "credit",
 			"item": [
 				{
-					"name": "/{id}",
+					"name": "/",
 					"request": {
 						"method": "POST",
 						"header": [
@@ -21,7 +21,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"amount\": 50000.0,\r\n    \"balance\": 50000.0,\r\n    \"limit\": 3000.0,\r\n    \"mouthsCredit\": 36,\r\n    \"paymentMonth\": 1388.88,\r\n    \"coin\": \"SOLES\",\r\n    \"startDate\": \"2021-11-26\",\r\n    \"paymentDate\": \"2021-11-26\",\r\n    \"exipirationDate\": \"2021-11-26\",\r\n    \"idCustomer\": 2,\r\n    \"idAccount\" : 2,\r\n    \"date\": \"2021-11-26\"\r\n}\r\n",
+							"raw": "{\r\n    \"amount\": 3500.0,\r\n     \"codeCredit\": \"01234567896\",\r\n     \"balance\": 3500.0,\r\n    \"limit\": 100.0,\r\n    \"mouthsCredit\": 36,\r\n    \"paymentMonth\": 150.88,\r\n    \"coin\": \"SOLES\",\r\n    \"startDate\": \"2021-11-26\",\r\n    \"paymentDate\": \"2021-11-26\",\r\n    \"exipirationDate\": \"2021-11-26\",\r\n    \"idCustomer\": \"61a1035e666e6e3f7bd6db72\",\r\n    \"idAccount\" : 0,\r\n    \"date\": \"2021-11-26\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -58,7 +58,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"id\": \"61a4222d88f5431c89666425\",\r\n    \"amount\": 50000.0,\r\n    \"balance\": 50000.0,\r\n    \"limit\": 3000.0,\r\n    \"paymentMonth\": 1388.88,\r\n    \"coin\": \"SOLES CDDCDFGXXSSX TEST\",\r\n    \"mouthsCredit\": 36,\r\n    \"startDate\": \"2021-11-26\",\r\n    \"paymentDate\": \"2021-11-26\",\r\n    \"exipirationDate\": \"2021-11-26\",\r\n    \"idCustomer\": \"2\",\r\n    \"idAccount\": \"2\",\r\n    \"date\": \"2021-11-26\"\r\n}",
+							"raw": "{\r\n    \"id\": \"61a4222d88f5431c89666425\",\r\n    \"amount\": 50000.0,\r\n    \"balance\": 50000.0,\r\n    \"limit\": 3000.0,\r\n    \"paymentMonth\": 1388.88,\r\n    \"coin\": \"SOLES\",\r\n    \"mouthsCredit\": 36,\r\n    \"startDate\": \"2021-11-26\",\r\n    \"paymentDate\": \"2021-11-26\",\r\n    \"exipirationDate\": \"2021-11-26\",\r\n    \"idCustomer\": \"2\",\r\n    \"idAccount\": \"2\",\r\n    \"date\": \"2021-11-26\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -116,7 +116,7 @@
 							}
 						],
 						"url": {
-							"raw": "http://localhost:8080/api/v1/credit/61a441da483e701b2000fcaa",
+							"raw": "http://localhost:8080/api/v1/credit/61a95ad532ee9274cdb4ff7b",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -126,7 +126,7 @@
 								"api",
 								"v1",
 								"credit",
-								"61a441da483e701b2000fcaa"
+								"61a95ad532ee9274cdb4ff7b"
 							]
 						}
 					},
@@ -138,7 +138,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/api/v1/credit/61a10e4c4fff435c5a346d71",
+							"raw": "http://localhost:8080/api/v1/credit/61a81073288360492353791d",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -148,7 +148,7 @@
 								"api",
 								"v1",
 								"credit",
-								"61a10e4c4fff435c5a346d71"
+								"61a81073288360492353791d"
 							]
 						}
 					},
@@ -160,7 +160,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/api/v1/credit/customer/61a10394666e6e3f7bd6db73",
+							"raw": "http://localhost:8080/api/v1/credit/customer/61a1035e666e6e3f7bd6db72",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -171,7 +171,7 @@
 								"v1",
 								"credit",
 								"customer",
-								"61a10394666e6e3f7bd6db73"
+								"61a1035e666e6e3f7bd6db72"
 							]
 						}
 					},
@@ -232,7 +232,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"id\": \"61a425ad0bf5bc7890d05a93\",\r\n    \"dni\": \"30643217\",\r\n    \"ruc\": \"\",\r\n    \"name\": \"Elon dfsdfsfds AAAAAAAAAAAAAAA\",\r\n    \"surname\": \"Musk\",\r\n    \"telephone\": \"991200541\",\r\n    \"direction\": \"Trujillo Perú\",\r\n    \"email\": \"elon@gmail.com\",\r\n    \"password\": \"\",\r\n    \"role\": \"PROPIETARIO\",\r\n    \"idProfile\": \"619f96f2909ca86b63380be6\",\r\n    \"date\": \"2021-11-26\"\r\n}",
+							"raw": "{\r\n        \"id\": \"61a146bd1ceb1534a6281d4b\",\r\n        \"dni\": \"30643217\",\r\n        \"ruc\": \"\",\r\n        \"name\": \"Elon\",\r\n        \"surname\": \"Musk - Cta - PYME\",\r\n        \"telephone\": \"991200541\",\r\n        \"direction\": \"Trujillo Perú\",\r\n        \"email\": \"elon@gmail.com\",\r\n        \"password\": \"\",\r\n        \"role\": \"PROPIETARIO\",\r\n        \"idProfile\": \"61a13f219a28111d63e1d3bc\",\r\n        \"date\": \"2021-11-26\"\r\n    }",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -240,7 +240,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/api/v1/customers/61a425ad0bf5bc7890d05a93",
+							"raw": "http://localhost:8080/api/v1/customers/61a146bd1ceb1534a6281d4b",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -250,7 +250,7 @@
 								"api",
 								"v1",
 								"customers",
-								"61a425ad0bf5bc7890d05a93"
+								"61a146bd1ceb1534a6281d4b"
 							]
 						}
 					},
@@ -357,7 +357,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/api/v1/customers/credits/61a10394666e6e3f7bd6db73",
+							"raw": "http://localhost:8080/api/v1/customers/credits/61a1035e666e6e3f7bd6db72",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -368,7 +368,7 @@
 								"v1",
 								"customers",
 								"credits",
-								"61a10394666e6e3f7bd6db73"
+								"61a1035e666e6e3f7bd6db72"
 							]
 						}
 					},
@@ -387,7 +387,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"idProduct\" : \"61a10e4c4fff435c5a346d71\",\r\n    \"input\" :5,\r\n    \"ouput\" : 0\r\n}\r\n",
+							"raw": "{\r\n   \r\n    \"idProduct\" : \"61a4222d88f5431c89666425\",\r\n    \"typeTran\": \"CREDITO\", \r\n    \"input\" :0,\r\n    \"ouput\" : 500\r\n}\r\n\r\n/*\r\n{\r\n    //El cliente puede hacer transacciones(entradas o salidas)\r\n    \"idProduct\" : \"61a149ecb35a516a39c22481\", // id credito,id cuenta\r\n    \"typeTran\": \"CUENTA\", //CUENTA: si es cuenta,CREDITO si es credito\r\n    \"input\" :0, //si es entrada sino 0\r\n    \"ouput\" : 500   //si es salida sino 0\r\n}*/\r\n",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -429,7 +429,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"balance\" : 5000,\r\n    \"typeAccount\" :\"TARJETA_CREDITO XD\",\r\n    \"typeCard\" :\"VISA\",\r\n    \"numberCard\" : \"4782749714135256\",\r\n    \"ccv\" :\"102\",\r\n    \"minAmount\" :0,\r\n    \"maxTransac\" : 10,\r\n    \"maxLimitMov\" : 500,\r\n    \"coin\" : \"NUEVO_SOL\",\r\n    \"maintenance\": 3,\r\n    \"idcustomer\" :\"61a1462a1ceb1534a6281d4a\",\r\n    \"date\" : \"2021-12-25\"\r\n}",
+							"raw": "{\r\n        \"numberAccount\": \"1234567896\",\r\n        \"balance\": 4950.0,\r\n        \"typeAccount\": \"CCORIENTE\",\r\n        \"typeCard\": \"VISA_DEBITO\",\r\n        \"numberCard\": \"5782749714135257\",\r\n        \"ccv\": \"102\",\r\n        \"exipirationCard\": \"2023-12-05\",\r\n        \"coin\": \"NUEVO_SOL\",\r\n        \"minAmount\": 0,\r\n        \"limitMaxTransac\": 0,\r\n        \"idcustomer\": \"61a1462a1ceb1534a6281d4a\",\r\n        \"commissionTransaction\": 2,\r\n        \"commissionMaintenance\": 0.2,\r\n        \"date\": \"2021-12-01\"\r\n}\r\n\r\n\r\n\r\n/*\r\ntypeAccount: CCORIENTE, CAHORRO,CPLAZOFIJO\r\n*/\r\n\r\n/*\r\nCUENTA EMPRESARIAL\r\n\r\n {\r\n        \"numberAccount\": \"1234567896\",\r\n        \"balance\": 4950.0,\r\n        \"typeAccount\": \"CCORIENTE\",\r\n        \"typeCard\": \"VISA_DEBITO\",\r\n        \"numberCard\": \"5782749714135257\",\r\n        \"ccv\": \"102\",\r\n        \"exipirationCard\": \"2023-12-05\",\r\n        \"coin\": \"NUEVO_SOL\",\r\n        \"minAmount\": 0,\r\n        \"limitMaxTransac\": 0,\r\n        \"idcustomer\": \"61a1462a1ceb1534a6281d4a\",\r\n        \"commissionTransaction\": 2,\r\n        \"commissionMaintenance\": 0.2,\r\n        \"date\": \"2021-12-01\"\r\n    }*/",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -466,7 +466,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"id\": \"61a420fb6348e745580ab6b0\",\r\n    \"balance\": 5000.0,\r\n    \"typeAccount\": \"TARJETA_CREDITO XD DDD\",\r\n    \"typeCard\": \"VISA\",\r\n    \"numberCard\": \"4782749714135256\",\r\n    \"ccv\": \"102\",\r\n    \"minAmount\": 3.0,\r\n    \"maxTransac\": 10.0,\r\n    \"maxLimitMov\": 500,\r\n    \"coin\": \"NUEVO_SOL\",\r\n    \"idcustomer\": \"61a1462a1ceb1534a6281d4a\",\r\n    \"maintenance\": 500.0,\r\n    \"date\": \"2021-11-28\"\r\n}",
+							"raw": "{\r\n        \"id\": \"61aa520a3e98e05c4b329ff6\",\r\n        \"numberAccount\": 123456789,\r\n        \"balance\": 4950.0,\r\n        \"typeAccount\": \"CAHORRO\",\r\n        \"typeCard\": \"VISA\",\r\n        \"numberCard\": \"4782749714135256\",\r\n        \"ccv\": \"102\",\r\n        \"exipirationCard\": null,\r\n        \"coin\": \"NUEVO_SOL\",\r\n        \"minAmount\": 500.0,\r\n        \"limitMaxTransac\": 5,\r\n        \"idcustomer\": \"61a1035e666e6e3f7bd6db72\",\r\n        \"commissionTransaction\": 0.0,\r\n        \"commissionMaintenance\": 5.0,\r\n        \"date\": \"2021-12-04\"\r\n    }",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -474,7 +474,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/api/v1/account/61a420fb6348e745580ab6b0",
+							"raw": "http://localhost:8080/api/v1/account/61aa520a3e98e05c4b329ff6",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -484,7 +484,7 @@
 								"api",
 								"v1",
 								"account",
-								"61a420fb6348e745580ab6b0"
+								"61aa520a3e98e05c4b329ff6"
 							]
 						}
 					},
@@ -496,7 +496,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/api/v1/account/61a150fa727c8d5f17266d08",
+							"raw": "http://localhost:8080/api/v1/account/61ad4898cc972e2620ff166c",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -506,7 +506,7 @@
 								"api",
 								"v1",
 								"account",
-								"61a150fa727c8d5f17266d08"
+								"61ad4898cc972e2620ff166c"
 							]
 						}
 					},
@@ -524,7 +524,7 @@
 							}
 						],
 						"url": {
-							"raw": "http://localhost:8080/api/v1/account/61a420fb6348e745580ab6b0",
+							"raw": "http://localhost:8080/api/v1/account/61ad48fe5c2815607ca67820",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -534,7 +534,7 @@
 								"api",
 								"v1",
 								"account",
-								"61a420fb6348e745580ab6b0"
+								"61ad48fe5c2815607ca67820"
 							]
 						}
 					},
@@ -557,6 +557,29 @@
 								"v1",
 								"account",
 								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/customer/{idCustomer}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/account/customer/61a1035e666e6e3f7bd6db72",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"account",
+								"customer",
+								"61a1035e666e6e3f7bd6db72"
 							]
 						}
 					},
@@ -580,7 +603,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"idProduct\" : \"61a10e4c4fff435c5a346d71\",\r\n    \"typeTran\": \"CREDITO\",\r\n    \"input\" :20,\r\n    \"ouput\" : 0\r\n}\r\n",
+							"raw": "{\r\n    \"idProduct\" : \"61ad4898cc972e2620ff166c\",\r\n    \"typeTran\": \"CUENTA\",\r\n    \"input\" :0,\r\n    \"ouput\" :50 \r\n}\r\n\r\n//typeTran: CUENTA,CREDITO\r\n",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -617,7 +640,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "    {\r\n        \"id\": \"61a4fd1bec74cb14b2f09317\",\r\n        \"input\": 1000.0,\r\n        \"ouput\": 0.0,\r\n        \"idProduct\": \"61a10e4c4fff435c5a346d71\",\r\n        \"typeTran\": \"PAGO CRÉDITO\",\r\n        \"date\": \"2021-11-26\"\r\n    }",
+							"raw": "{\r\n        \"id\": \"61aa97f1c8d5e262be232ac8\",\r\n        \"input\": 100,\r\n        \"ouput\": 0,\r\n        \"idProduct\": \"61a81073288360492353791d\",\r\n        \"typeTran\": \"CREDITO\",\r\n        \"date\": \"2021-12-03\"\r\n    },",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -625,7 +648,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/api/v1/transaction/61a4fd1bec74cb14b2f09317",
+							"raw": "http://localhost:8080/api/v1/transaction/61aa97f1c8d5e262be232ac8",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -635,7 +658,7 @@
 								"api",
 								"v1",
 								"transaction",
-								"61a4fd1bec74cb14b2f09317"
+								"61aa97f1c8d5e262be232ac8"
 							]
 						}
 					},
@@ -675,7 +698,7 @@
 							}
 						],
 						"url": {
-							"raw": "http://localhost:8080/api/v1/transaction/61a529cbac42a82113e5b5e7",
+							"raw": "http://localhost:8080/api/v1/transaction/61ad5964be7f62139ec5795c",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -685,7 +708,7 @@
 								"api",
 								"v1",
 								"transaction",
-								"61a529cbac42a82113e5b5e7"
+								"61ad5964be7f62139ec5795c"
 							]
 						}
 					},
@@ -719,7 +742,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/api/v1/transaction/61a4f2033e1e216be040bfd2",
+							"raw": "http://localhost:8080/api/v1/transaction/product/61ad43551283f31eac9830b3",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -729,7 +752,8 @@
 								"api",
 								"v1",
 								"transaction",
-								"61a4f2033e1e216be040bfd2"
+								"product",
+								"61ad43551283f31eac9830b3"
 							]
 						}
 					},
@@ -748,10 +772,10 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": " {\r\n        \"id\": \"61a10e4c4fff435c5a346d71\",\r\n        \"amount\": 50000.0,\r\n        \"balance\": 50000.0,\r\n        \"limit\": 500.0,\r\n        \"paymentMonth\": 1388.88,\r\n        \"coin\": \"SOLES\",\r\n        \"mouthsCredit\": 36,\r\n        \"startDate\": \"2021-11-26\",\r\n        \"paymentDate\": \"2021-12-26\",\r\n        \"exipirationDate\": \"2023-11-26\",\r\n        \"idCustomer\": \"61a10394666e6e3f7bd6db73\",\r\n        \"idAccount\": \"61a150fa727c8d5f17266d08\",\r\n        \"date\": \"2021-11-26\"\r\n    }"
+							"raw": " {\r\n        \"id\": \"61a4222d88f5431c89666425\",\r\n        \"amount\": 50000.0,\r\n        \"balance\": 50000.0,\r\n        \"limit\": 500.0,\r\n        \"paymentMonth\": 1388.88,\r\n        \"coin\": \"SOLES\",\r\n        \"mouthsCredit\": 36,\r\n        \"startDate\": \"2021-11-26\",\r\n        \"paymentDate\": \"2021-12-26\",\r\n        \"exipirationDate\": \"2023-11-26\",\r\n        \"idCustomer\": \"61a10394666e6e3f7bd6db73\",\r\n        \"idAccount\": \"61a150fa727c8d5f17266d08\",\r\n        \"date\": \"2021-11-26\"\r\n    }"
 						},
 						"url": {
-							"raw": "http://localhost:8080/api/v1/transaction/credit/61a10e4c4fff435c5a346d71",
+							"raw": "http://localhost:8080/api/v1/transaction/credit/61a4222d88f5431c89666425",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -762,7 +786,7 @@
 								"v1",
 								"transaction",
 								"credit",
-								"61a10e4c4fff435c5a346d71"
+								"61a4222d88f5431c89666425"
 							]
 						}
 					},
@@ -774,7 +798,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/api/v1/transaction/credit/61a10e4c4fff435c5a346d71",
+							"raw": "http://localhost:8080/api/v1/transaction/credit/61a81073288360492353791d",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -785,7 +809,7 @@
 								"v1",
 								"transaction",
 								"credit",
-								"61a10e4c4fff435c5a346d71"
+								"61a81073288360492353791d"
 							]
 						}
 					},
@@ -837,10 +861,10 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"id\": \"61a44603ddcfb0038580b104\",\r\n    \"typeProfile\": \"EMPRESARIAL PYME XD\",\r\n    \"montoMIn\": \"0\"\r\n}"
+							"raw": "{\r\n        \"id\": \"61a13f219a28111d63e1d3bc\",\r\n        \"typeProfile\": \"PYME\",\r\n        \"montoMIn\": 1000\r\n}"
 						},
 						"url": {
-							"raw": "http://localhost:8080/api/v1/profile/61a44603ddcfb0038580b104",
+							"raw": "http://localhost:8080/api/v1/profile/61a13f219a28111d63e1d3bc",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -850,7 +874,7 @@
 								"api",
 								"v1",
 								"profile",
-								"61a44603ddcfb0038580b104"
+								"61a13f219a28111d63e1d3bc"
 							]
 						}
 					},
@@ -994,20 +1018,19 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"typeTran\": \"INTERNA\",\r\n    \"idAccountOrigin\": \"4432084166842058\",\r\n    \"idAccountDestiny\": \"4782749714135256\",\r\n    \"amount\": 100,\r\n    \"date\": \"2021-11-26\",\r\n    \"idAccount\" : \"61a149ecb35a516a39c22481\"\r\n}\r\n"
+							"raw": "{\r\n    \"typeTran\": \"INTERNA\",\r\n    \"idAccountOrigin\": \"61aa55fd1a407d6c26cb872a\",\r\n    \"idAccountDestiny\": \"61aa520a3e98e05c4b329ff6\",\r\n    \"amount\": 200,\r\n    \"date\": \"2021-12-03\"\r\n}\r\n"
 						},
 						"url": {
-							"raw": "http://localhost:8006/api/v1/transfer/add/",
+							"raw": "http://localhost:8080/api/v1/transfer/",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "8006",
+							"port": "8080",
 							"path": [
 								"api",
 								"v1",
 								"transfer",
-								"add",
 								""
 							]
 						}
@@ -1021,7 +1044,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"id\": \"61a1b62b6d85d6736e43ece4\",\r\n    \"typeTran\": \"EXTERNA\",\r\n    \"idAccountOrigin\": \"4432084166842058\",\r\n    \"idAccountDestiny\": \"4782749714135256\",\r\n    \"amount\": 1000.0,\r\n    \"date\": \"2021-11-26\",\r\n    \"idAccount\": \"61a149ecb35a516a39c22481\"\r\n}",
+							"raw": "{\r\n    \"id\": \"61ab99276adfc53dcfceb653\",\r\n    \"typeTran\": \"INTERNA\",\r\n    \"idAccountOrigin\": \"61aa55fd1a407d6c26cb872a\",\r\n    \"idAccountDestiny\": \"61aa520a3e98e05c4b329ff6\",\r\n    \"amount\": 50.0,\r\n    \"date\": \"2021-12-03\"\r\n}\r\n",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -1029,7 +1052,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/api/v1/transfer/61a1b62b6d85d6736e43ece4",
+							"raw": "http://localhost:8080/api/v1/transfer/61ab99276adfc53dcfceb653",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -1039,7 +1062,7 @@
 								"api",
 								"v1",
 								"transfer",
-								"61a1b62b6d85d6736e43ece4"
+								"61ab99276adfc53dcfceb653"
 							]
 						}
 					},
@@ -1051,7 +1074,7 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/api/v1/transfer/61a1b62b6d85d6736e43ece4",
+							"raw": "http://localhost:8080/api/v1/transfer/61ab973ec470820d085c30c0",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -1061,7 +1084,7 @@
 								"api",
 								"v1",
 								"transfer",
-								"61a1b62b6d85d6736e43ece4"
+								"61ab973ec470820d085c30c0"
 							]
 						}
 					},
@@ -1185,7 +1208,7 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/api/v1/report/61a44931eace0812c0986e5e",
+							"raw": "http://localhost:8080/api/v1/report/61ad1c1f4b8dd139ac1851f6",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -1195,7 +1218,144 @@
 								"api",
 								"v1",
 								"report",
-								"61a44931eace0812c0986e5e"
+								"61ad1c1f4b8dd139ac1851f6"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/getAverageBalance/{idCustomer}",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/report/getAverageBalance/61a1035e666e6e3f7bd6db72",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"report",
+								"getAverageBalance",
+								"61a1035e666e6e3f7bd6db72"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/saveAverageBalance/{idCustomer}",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/report/saveAverageBalance/61a1035e666e6e3f7bd6db72",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"report",
+								"saveAverageBalance",
+								"61a1035e666e6e3f7bd6db72"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/credits/{idCustomer}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/report/credits/61a1035e666e6e3f7bd6db72",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"report",
+								"credits",
+								"61a1035e666e6e3f7bd6db72"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/getCommission",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"idProduct\": \"61ad43551283f31eac9830b3\",\r\n    \"startDate\": \"2021-12-05\",\r\n    \"endDate\": \"2021-12-05\"\r\n\r\n}\r\n//REPORTE\r\n//Comision de un producto\r\n//en un rango de ffeecha"
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/report/getCommission",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"report",
+								"getCommission"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/getConsolidated/{idCustomer}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/report/getConsolidated/61a1035e666e6e3f7bd6db72",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"report",
+								"getConsolidated",
+								"61a1035e666e6e3f7bd6db72"
 							]
 						}
 					},
