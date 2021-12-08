@@ -1,0 +1,323 @@
+[{
+  "_id": {
+    "$oid": "61ad484ccc972e2620ff166b"
+  },
+  "numberAccount": "1234567894",
+  "balance": 4950,
+  "typeAccount": "CCORIENTE",
+  "typeCard": "VISA",
+  "numberCard": "4782749714135256",
+  "ccv": "102",
+  "exipirationCard": {
+    "$date": "2023-12-05T05:00:00Z"
+  },
+  "coin": "NUEVO_SOL",
+  "minAmount": 0,
+  "limitMaxTransac": 0,
+  "idcustomer": "61a1462a1ceb1534a6281d4a",
+  "commissionTransaction": 0.5,
+  "commissionMaintenance": 0.2,
+  "date": {
+    "$date": "2021-12-01T05:00:00Z"
+  },
+  "_class": "com.nttdata.account.infrestructure.model.dao.AccountDao"
+},{
+  "_id": {
+    "$oid": "61afa34bb92dc85efbe2c948"
+  },
+  "numberAccount": "1234567899",
+  "balance": 4950,
+  "typeAccount": "CCORIENTE",
+  "typeCard": "VISA_DEBITO",
+  "numberCard": "5782749714135257",
+  "ccv": "102",
+  "exipirationCard": {
+    "$date": "2023-12-05T05:00:00Z"
+  },
+  "coin": "NUEVO_SOL",
+  "minAmount": 0,
+  "limitMaxTransac": 0,
+  "idcustomer": "61a1462a1ceb1534a6281d4a",
+  "commissionTransaction": 2,
+  "commissionMaintenance": 0.2,
+  "date": {
+    "$date": "2021-12-01T05:00:00Z"
+  },
+  "_class": "com.nttdata.account.infrestructure.model.dao.AccountDao"
+},{
+  "_id": {
+    "$oid": "61afd006f0b2102acd1c9410"
+  },
+  "numberAccount": "12345678910",
+  "balance": 4950,
+  "typeAccount": "CCORIENTE",
+  "typeCard": "VISA_DEBITO",
+  "numberCard": "5782749714135257",
+  "ccv": "102",
+  "exipirationCard": {
+    "$date": "2023-12-05T05:00:00Z"
+  },
+  "coin": "NUEVO_SOL",
+  "minAmount": 0,
+  "limitMaxTransac": 0,
+  "idcustomer": "61af9cd77449cf10456099bf",
+  "commissionTransaction": 2,
+  "commissionMaintenance": 0.2,
+  "date": {
+    "$date": "2021-12-01T05:00:00Z"
+  },
+  "_class": "com.nttdata.account.infrestructure.model.dao.AccountDao"
+},{
+  "_id": {
+    "$oid": "61afd05ef0b2102acd1c9411"
+  },
+  "numberAccount": "12345678911",
+  "balance": 4950,
+  "typeAccount": "CCORIENTE",
+  "typeCard": "VISA_DEBITO",
+  "numberCard": "5782749714135257",
+  "ccv": "102",
+  "exipirationCard": {
+    "$date": "2023-12-05T05:00:00Z"
+  },
+  "coin": "NUEVO_SOL",
+  "minAmount": 0,
+  "limitMaxTransac": 0,
+  "idcustomer": "61af9cd77449cf10456099bf",
+  "commissionTransaction": 2,
+  "commissionMaintenance": 0.2,
+  "date": {
+    "$date": "2021-12-01T05:00:00Z"
+  },
+  "_class": "com.nttdata.account.infrestructure.model.dao.AccountDao"
+},{
+  "_id": {
+    "$oid": "61afd4efd1fe6b1e66431040"
+  },
+  "numberAccount": "1234567891",
+  "balance": 4950,
+  "typeAccount": "CCORIENTE",
+  "typeCard": "VISA_DEBITO",
+  "numberCard": "5782749714135257",
+  "ccv": "102",
+  "exipirationCard": {
+    "$date": "2023-12-05T05:00:00Z"
+  },
+  "coin": "NUEVO_SOL",
+  "minAmount": 0,
+  "limitMaxTransac": 0,
+  "idcustomer": "61a1035e666e6e3f7bd6db72",
+  "commissionTransaction": 2,
+  "commissionMaintenance": 0.2,
+  "date": {
+    "$date": "2021-12-01T05:00:00Z"
+  },
+  "_class": "com.nttdata.account.infrestructure.model.dao.AccountDao"
+},{
+  "_id": {
+    "$oid": "61afe96e46b7d82a60fb778f"
+  },
+  "numberAccount": "1234567892",
+  "balance": 4950,
+  "typeAccount": "CAHORRO",
+  "typeCard": "VISA_DEBITO",
+  "numberCard": "5782749714135257",
+  "ccv": "102",
+  "exipirationCard": {
+    "$date": "2023-12-05T05:00:00Z"
+  },
+  "coin": "NUEVO_SOL",
+  "minAmount": 0,
+  "limitMaxTransac": 5,
+  "idcustomer": "61a1035e666e6e3f7bd6db72",
+  "commissionTransaction": 0,
+  "commissionMaintenance": 0,
+  "date": {
+    "$date": "2021-12-01T05:00:00Z"
+  },
+  "_class": "com.nttdata.account.infrestructure.model.dao.AccountDao"
+},{
+  "_id": {
+    "$oid": "61afe9c746b7d82a60fb7790"
+  },
+  "numberAccount": "1234567893",
+  "balance": 4950,
+  "typeAccount": "CPLAZOFIJO",
+  "typeCard": "VISA_DEBITO",
+  "numberCard": "5782749714135257",
+  "ccv": "102",
+  "exipirationCard": {
+    "$date": "2023-12-05T05:00:00Z"
+  },
+  "coin": "NUEVO_SOL",
+  "minAmount": 0,
+  "limitMaxTransac": 1,
+  "idcustomer": "61a1035e666e6e3f7bd6db72",
+  "commissionTransaction": 0,
+  "commissionMaintenance": 0,
+  "date": {
+    "$date": "2021-12-01T05:00:00Z"
+  },
+  "_class": "com.nttdata.account.infrestructure.model.dao.AccountDao"
+},{
+  "_id": {
+    "$oid": "61afeb92aab6760056cff680"
+  },
+  "numberAccount": "1234567896",
+  "balance": 4950,
+  "typeAccount": "CCORIENTE",
+  "typeCard": "VISA_DEBITO",
+  "numberCard": "5782749714135257",
+  "ccv": "102",
+  "exipirationCard": {
+    "$date": "2023-12-05T05:00:00Z"
+  },
+  "coin": "NUEVO_SOL",
+  "minAmount": 0,
+  "limitMaxTransac": 0,
+  "idcustomer": "61af9cd77449cf10456099bf",
+  "commissionTransaction": 0,
+  "commissionMaintenance": 1,
+  "date": {
+    "$date": "2021-12-01T05:00:00Z"
+  },
+  "_class": "com.nttdata.account.infrestructure.model.dao.AccountDao"
+},{
+  "_id": {
+    "$oid": "61afebf8aab6760056cff681"
+  },
+  "numberAccount": "1234567897",
+  "balance": 4950,
+  "typeAccount": "CCORIENTE",
+  "typeCard": "VISA_DEBITO",
+  "numberCard": "5782749714135257",
+  "ccv": "102",
+  "exipirationCard": {
+    "$date": "2023-12-05T05:00:00Z"
+  },
+  "coin": "NUEVO_SOL",
+  "minAmount": 0,
+  "limitMaxTransac": 0,
+  "idcustomer": "61afebd67449cf10456099c0",
+  "commissionTransaction": 0,
+  "commissionMaintenance": 1,
+  "date": {
+    "$date": "2021-12-01T05:00:00Z"
+  },
+  "_class": "com.nttdata.account.infrestructure.model.dao.AccountDao"
+},{
+  "_id": {
+    "$oid": "61afee6befeb1472b3da713b"
+  },
+  "numberAccount": "12345678921",
+  "balance": 4950,
+  "typeAccount": "CCORIENTE",
+  "typeCard": "VISA_DEBITO",
+  "numberCard": "5782749714135257",
+  "ccv": "102",
+  "exipirationCard": {
+    "$date": "2023-12-05T05:00:00Z"
+  },
+  "coin": "NUEVO_SOL",
+  "minAmount": 0,
+  "limitMaxTransac": 0,
+  "idcustomer": "61afebd67449cf10456099c0",
+  "commissionTransaction": 0,
+  "commissionMaintenance": 1,
+  "date": {
+    "$date": "2021-12-01T05:00:00Z"
+  },
+  "_class": "com.nttdata.account.infrestructure.model.dao.AccountDao"
+},{
+  "_id": {
+    "$oid": "61afefb7efeb1472b3da713c"
+  },
+  "numberAccount": "12345678922",
+  "balance": 4950,
+  "typeAccount": "CCORIENTE",
+  "typeCard": "VISA_DEBITO",
+  "numberCard": "5782749714135257",
+  "ccv": "102",
+  "exipirationCard": {
+    "$date": "2023-12-05T05:00:00Z"
+  },
+  "coin": "NUEVO_SOL",
+  "minAmount": 0,
+  "limitMaxTransac": 0,
+  "idcustomer": "61a1462a1ceb1534a6281d4a",
+  "commissionTransaction": 0,
+  "commissionMaintenance": 1,
+  "date": {
+    "$date": "2021-12-01T05:00:00Z"
+  },
+  "_class": "com.nttdata.account.infrestructure.model.dao.AccountDao"
+},{
+  "_id": {
+    "$oid": "61afefe2efeb1472b3da713d"
+  },
+  "numberAccount": "12345678923",
+  "balance": 4950,
+  "typeAccount": "CCORIENTE",
+  "typeCard": "VISA_DEBITO",
+  "numberCard": "5782749714135257",
+  "ccv": "102",
+  "exipirationCard": {
+    "$date": "2023-12-05T05:00:00Z"
+  },
+  "coin": "NUEVO_SOL",
+  "minAmount": 0,
+  "limitMaxTransac": 0,
+  "idcustomer": "61a1462a1ceb1534a6281d4a",
+  "commissionTransaction": 0,
+  "commissionMaintenance": 1,
+  "date": {
+    "$date": "2021-12-01T05:00:00Z"
+  },
+  "_class": "com.nttdata.account.infrestructure.model.dao.AccountDao"
+},{
+  "_id": {
+    "$oid": "61aff03cefeb1472b3da713e"
+  },
+  "numberAccount": "12345678924",
+  "balance": 4950,
+  "typeAccount": "CCORIENTE",
+  "typeCard": "VISA_DEBITO",
+  "numberCard": "5782749714135257",
+  "ccv": "102",
+  "exipirationCard": {
+    "$date": "2023-12-05T05:00:00Z"
+  },
+  "coin": "NUEVO_SOL",
+  "minAmount": 0,
+  "limitMaxTransac": 0,
+  "idcustomer": "61a10394666e6e3f7bd6db73",
+  "commissionTransaction": 0,
+  "commissionMaintenance": 1,
+  "date": {
+    "$date": "2021-12-01T05:00:00Z"
+  },
+  "_class": "com.nttdata.account.infrestructure.model.dao.AccountDao"
+},{
+  "_id": {
+    "$oid": "61aff29e73ad097c52aa03d1"
+  },
+  "numberAccount": "12345678925",
+  "balance": 4950,
+  "typeAccount": "CAHORRO",
+  "typeCard": "VISA_DEBITO",
+  "numberCard": "5782749714135257",
+  "ccv": "102",
+  "exipirationCard": {
+    "$date": "2023-12-05T05:00:00Z"
+  },
+  "coin": "NUEVO_SOL",
+  "minAmount": 0,
+  "limitMaxTransac": 5,
+  "idcustomer": "61a10394666e6e3f7bd6db73",
+  "commissionTransaction": 0,
+  "commissionMaintenance": 0,
+  "date": {
+    "$date": "2021-12-01T05:00:00Z"
+  },
+  "_class": "com.nttdata.account.infrestructure.model.dao.AccountDao"
+}]

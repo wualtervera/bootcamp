@@ -1,0 +1,29 @@
+[{
+  "_id": {
+    "$oid": "619f96f2909ca86b63380be6"
+  },
+  "typeProfile": "PERSONAL",
+  "montoMIn": "0",
+  "_class": "com.nttdata.profileservice.infrastructure.model.dao.ProfileDAO"
+},{
+  "_id": {
+    "$oid": "61a13df39a28111d63e1d3ba"
+  },
+  "typeProfile": "EMPRESARIAL",
+  "montoMIn": "0",
+  "_class": "com.nttdata.profileservice.infrastructure.model.dao.ProfileDAO"
+},{
+  "_id": {
+    "$oid": "61a13ec69a28111d63e1d3bb"
+  },
+  "typeProfile": "PERSONAL_VIP",
+  "montoMIn": 500,
+  "_class": "com.nttdata.profileservice.infrastructure.model.dao.ProfileDAO"
+},{
+  "_id": {
+    "$oid": "61a13f219a28111d63e1d3bc"
+  },
+  "typeProfile": "EMPRESARIAL_PYME",
+  "montoMIn": 1000,
+  "_class": "com.nttdata.profileservice.infrastructure.model.dao.ProfileDAO"
+}]

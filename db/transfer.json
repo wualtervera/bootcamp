@@ -1,0 +1,25 @@
+[{
+  "_id": {
+    "$oid": "61ab9788c470820d085c30c1"
+  },
+  "typeTran": "INTERNA",
+  "idAccountOrigin": "61aa55fd1a407d6c26cb872a",
+  "idAccountDestiny": "61aa520a3e98e05c4b329ff6",
+  "amount": 500,
+  "date": {
+    "$date": "2021-12-03T05:00:00Z"
+  },
+  "_class": "com.nttdata.transferservice.infrastructura.model.dao.TransferDao"
+},{
+  "_id": {
+    "$oid": "61ab99276adfc53dcfceb653"
+  },
+  "typeTran": "INTERNA",
+  "idAccountOrigin": "61aa55fd1a407d6c26cb872a",
+  "idAccountDestiny": "61aa520a3e98e05c4b329ff6",
+  "amount": 50,
+  "date": {
+    "$date": "2021-12-03T05:00:00Z"
+  },
+  "_class": "com.nttdata.transferservice.infrastructura.model.dao.TransferDao"
+}]

@@ -1,0 +1,1415 @@
+{
+	"info": {
+		"_postman_id": "2c87beb8-5ecd-4f61-bc2e-d64cac40db04",
+		"name": "bootcamp-postmasn - remoto-azure",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "credit",
+			"item": [
+				{
+					"name": "/",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"amount\": 3500.0,\r\n     \"codeCredit\": \"01234567896\",\r\n     \"balance\": 3500.0,\r\n    \"limit\": 100.0,\r\n    \"mouthsCredit\": 36,\r\n    \"paymentMonth\": 150.88,\r\n    \"coin\": \"SOLES\",\r\n    \"startDate\": \"2021-11-26\",\r\n    \"paymentDate\": \"2021-11-26\",\r\n    \"exipirationDate\": \"2021-11-26\",\r\n    \"idCustomer\": \"61a1035e666e6e3f7bd6db72\",\r\n    \"idAccount\" : 0,\r\n    \"date\": \"2021-11-26\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://ms-credits.azurewebsites.net/api/v1/credit/",
+							"protocol": "https",
+							"host": [
+								"ms-credits",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"v1",
+								"credit",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/{Id}",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": \"61a4222d88f5431c89666425\",\r\n    \"amount\": 50000.0,\r\n    \"balance\": 50000.0,\r\n    \"limit\": 3000.0,\r\n    \"paymentMonth\": 1388.88,\r\n    \"coin\": \"SOLES\",\r\n    \"mouthsCredit\": 36,\r\n    \"startDate\": \"2021-11-26\",\r\n    \"paymentDate\": \"2021-11-26\",\r\n    \"exipirationDate\": \"2021-11-26\",\r\n    \"idCustomer\": \"2\",\r\n    \"idAccount\": \"2\",\r\n    \"date\": \"2021-11-26\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://ms-credits.azurewebsites.net/api/v1/credit/61a4222d88f5431c89666425",
+							"protocol": "https",
+							"host": [
+								"ms-credits",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"v1",
+								"credit",
+								"61a4222d88f5431c89666425"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://ms-credits.azurewebsites.net/api/v1/credit/",
+							"protocol": "https",
+							"host": [
+								"ms-credits",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"v1",
+								"credit",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/{id}",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://ms-credits.azurewebsites.net/api/v1/credit/61a95ad532ee9274cdb4ff7b",
+							"protocol": "https",
+							"host": [
+								"ms-credits",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"v1",
+								"credit",
+								"61a95ad532ee9274cdb4ff7b"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/{id}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://ms-credits.azurewebsites.net/api/v1/credit/61a81073288360492353791d",
+							"protocol": "https",
+							"host": [
+								"ms-credits",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"v1",
+								"credit",
+								"61a81073288360492353791d"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/customer/{id}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://ms-credits.azurewebsites.net/api/v1/credit/customer/61a1035e666e6e3f7bd6db72",
+							"protocol": "https",
+							"host": [
+								"ms-credits",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"v1",
+								"credit",
+								"customer",
+								"61a1035e666e6e3f7bd6db72"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "customer",
+			"item": [
+				{
+					"name": "/",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"dni\": \"30643217\",\r\n    \"ruc\": \"\",\r\n    \"name\": \"Elon dfsdfsfds\",\r\n    \"surname\": \"Musk\",\r\n    \"telephone\": \"991200541\",\r\n    \"direction\": \"Trujillo Perú\",\r\n    \"email\": \"elon@gmail.com\",\r\n    \"password\": \"\",\r\n    \"role\": \"PROPIETARIO\",\r\n    \"idProfile\": \"619f96f2909ca86b63380be6\",\r\n    \"date\": \"2021-11-26\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://ms-customer.azurewebsites.net/api/v1/customers/",
+							"protocol": "https",
+							"host": [
+								"ms-customer",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"v1",
+								"customers",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/{id}",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"id\": \"61a146bd1ceb1534a6281d4b\",\r\n        \"dni\": \"30643217\",\r\n        \"ruc\": \"\",\r\n        \"name\": \"Elon\",\r\n        \"surname\": \"Musk - Cta - PYME\",\r\n        \"telephone\": \"991200541\",\r\n        \"direction\": \"Trujillo Perú\",\r\n        \"email\": \"elon@gmail.com\",\r\n        \"password\": \"\",\r\n        \"role\": \"PROPIETARIO\",\r\n        \"idProfile\": \"61a13f219a28111d63e1d3bc\",\r\n        \"date\": \"2021-11-26\"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://ms-customer.azurewebsites.net/api/v1/customers/61a146bd1ceb1534a6281d4b",
+							"protocol": "https",
+							"host": [
+								"ms-customer",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"v1",
+								"customers",
+								"61a146bd1ceb1534a6281d4b"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://ms-customer.azurewebsites.net/api/v1/customers/",
+							"protocol": "https",
+							"host": [
+								"ms-customer",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"v1",
+								"customers",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/{id}",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://ms-customer.azurewebsites.net/api/v1/customers/61a425ad0bf5bc7890d05a93",
+							"protocol": "https",
+							"host": [
+								"ms-customer",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"v1",
+								"customers",
+								"61a425ad0bf5bc7890d05a93"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/{id}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://ms-customer.azurewebsites.net/api/v1/customers/61a1035e666e6e3f7bd6db72",
+							"protocol": "https",
+							"host": [
+								"ms-customer",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"v1",
+								"customers",
+								"61a1035e666e6e3f7bd6db72"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/dni/{id}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://ms-customer.azurewebsites.net/api/v1/customers/dni/45665558",
+							"protocol": "https",
+							"host": [
+								"ms-customer",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"v1",
+								"customers",
+								"dni",
+								"45665558"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/credits/{idCustomer}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://ms-customer.azurewebsites.net/api/v1/customers/credits/61a1035e666e6e3f7bd6db72",
+							"protocol": "https",
+							"host": [
+								"ms-customer",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"v1",
+								"customers",
+								"credits",
+								"61a1035e666e6e3f7bd6db72"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/transaction/",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \r\n    \"idProduct\" : \"61a4222d88f5431c89666425\",\r\n    \"typeTran\": \"CREDITO\", \r\n    \"input\" :0,\r\n    \"ouput\" : 500\r\n}\r\n\r\n/*\r\n{\r\n    //El cliente puede hacer transacciones(entradas o salidas)\r\n    \"idProduct\" : \"61a149ecb35a516a39c22481\", // id credito,id cuenta\r\n    \"typeTran\": \"CUENTA\", //CUENTA: si es cuenta,CREDITO si es credito\r\n    \"input\" :0, //si es entrada sino 0\r\n    \"ouput\" : 500   //si es salida sino 0\r\n}*/\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://ms-customer.azurewebsites.net/api/v1/customers/transaction",
+							"protocol": "https",
+							"host": [
+								"ms-customer",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"v1",
+								"customers",
+								"transaction"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Account",
+			"item": [
+				{
+					"name": "/",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"numberAccount\": \"1234567896\",\r\n        \"balance\": 4950.0,\r\n        \"typeAccount\": \"CCORIENTE\",\r\n        \"typeCard\": \"VISA_DEBITO\",\r\n        \"numberCard\": \"5782749714135257\",\r\n        \"ccv\": \"102\",\r\n        \"exipirationCard\": \"2023-12-05\",\r\n        \"coin\": \"NUEVO_SOL\",\r\n        \"minAmount\": 0,\r\n        \"limitMaxTransac\": 0,\r\n        \"idcustomer\": \"61a1462a1ceb1534a6281d4a\",\r\n        \"commissionTransaction\": 2,\r\n        \"commissionMaintenance\": 0.2,\r\n        \"date\": \"2021-12-01\"\r\n}\r\n\r\n\r\n\r\n/*\r\ntypeAccount: CCORIENTE, CAHORRO,CPLAZOFIJO\r\n*/\r\n\r\n/*\r\nCUENTA EMPRESARIAL\r\n\r\n {\r\n        \"numberAccount\": \"1234567896\",\r\n        \"balance\": 4950.0,\r\n        \"typeAccount\": \"CCORIENTE\",\r\n        \"typeCard\": \"VISA_DEBITO\",\r\n        \"numberCard\": \"5782749714135257\",\r\n        \"ccv\": \"102\",\r\n        \"exipirationCard\": \"2023-12-05\",\r\n        \"coin\": \"NUEVO_SOL\",\r\n        \"minAmount\": 0,\r\n        \"limitMaxTransac\": 0,\r\n        \"idcustomer\": \"61a1462a1ceb1534a6281d4a\",\r\n        \"commissionTransaction\": 2,\r\n        \"commissionMaintenance\": 0.2,\r\n        \"date\": \"2021-12-01\"\r\n    }*/",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://ms-accounts.azurewebsites.net/api/v1/account/",
+							"protocol": "https",
+							"host": [
+								"ms-accounts",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"v1",
+								"account",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/{id}",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"id\": \"61aa520a3e98e05c4b329ff6\",\r\n        \"numberAccount\": 123456789,\r\n        \"balance\": 4950.0,\r\n        \"typeAccount\": \"CAHORRO\",\r\n        \"typeCard\": \"VISA\",\r\n        \"numberCard\": \"4782749714135256\",\r\n        \"ccv\": \"102\",\r\n        \"exipirationCard\": null,\r\n        \"coin\": \"NUEVO_SOL\",\r\n        \"minAmount\": 500.0,\r\n        \"limitMaxTransac\": 5,\r\n        \"idcustomer\": \"61a1035e666e6e3f7bd6db72\",\r\n        \"commissionTransaction\": 0.0,\r\n        \"commissionMaintenance\": 5.0,\r\n        \"date\": \"2021-12-04\"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://ms-accounts.azurewebsites.net/api/v1/account/61aa520a3e98e05c4b329ff6",
+							"protocol": "https",
+							"host": [
+								"ms-accounts",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"v1",
+								"account",
+								"61aa520a3e98e05c4b329ff6"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/{id}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://ms-accounts.azurewebsites.net/api/v1/account/61ad4898cc972e2620ff166c",
+							"protocol": "https",
+							"host": [
+								"ms-accounts",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"v1",
+								"account",
+								"61ad4898cc972e2620ff166c"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/{id}",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://ms-accounts.azurewebsites.net/api/v1/account/61ad48fe5c2815607ca67820",
+							"protocol": "https",
+							"host": [
+								"ms-accounts",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"v1",
+								"account",
+								"61ad48fe5c2815607ca67820"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://ms-accounts.azurewebsites.net/api/v1/account/",
+							"protocol": "https",
+							"host": [
+								"ms-accounts",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"v1",
+								"account",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/customer/{idCustomer}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://ms-accounts.azurewebsites.net/api/v1/account/customer/61a1035e666e6e3f7bd6db72",
+							"protocol": "https",
+							"host": [
+								"ms-accounts",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"v1",
+								"account",
+								"customer",
+								"61a1035e666e6e3f7bd6db72"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "transaction",
+			"item": [
+				{
+					"name": "/",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"idProduct\" : \"61ad4898cc972e2620ff166c\",\r\n    \"typeTran\": \"CUENTA\",\r\n    \"input\" :0,\r\n    \"ouput\" :50 \r\n}\r\n\r\n//typeTran: CUENTA,CREDITO\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://ms-transactions.azurewebsites.net/api/v1/transaction/",
+							"protocol": "https",
+							"host": [
+								"ms-transactions",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"v1",
+								"transaction",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/{id}",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"id\": \"61aa97f1c8d5e262be232ac8\",\r\n        \"input\": 100,\r\n        \"ouput\": 0,\r\n        \"idProduct\": \"61a81073288360492353791d\",\r\n        \"typeTran\": \"CREDITO\",\r\n        \"date\": \"2021-12-03\"\r\n    },",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://ms-transactions.azurewebsites.net/api/v1/transaction/61aa97f1c8d5e262be232ac8",
+							"protocol": "https",
+							"host": [
+								"ms-transactions",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"v1",
+								"transaction",
+								"61aa97f1c8d5e262be232ac8"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://ms-transactions.azurewebsites.net/api/v1/transaction/",
+							"protocol": "https",
+							"host": [
+								"ms-transactions",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"v1",
+								"transaction",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/{id}",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://ms-transactions.azurewebsites.net/api/v1/transaction/61ad5964be7f62139ec5795c",
+							"protocol": "https",
+							"host": [
+								"ms-transactions",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"v1",
+								"transaction",
+								"61ad5964be7f62139ec5795c"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/{id}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://ms-transactions.azurewebsites.net/api/v1/transaction/61a0f94ddff7440cefaaa9ab",
+							"protocol": "https",
+							"host": [
+								"ms-transactions",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"v1",
+								"transaction",
+								"61a0f94ddff7440cefaaa9ab"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/{idProduct}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://ms-transactions.azurewebsites.net/api/v1/transaction/product/61ad43551283f31eac9830b3",
+							"protocol": "https",
+							"host": [
+								"ms-transactions",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"v1",
+								"transaction",
+								"product",
+								"61ad43551283f31eac9830b3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/credit/{idCredit}",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": " {\r\n        \"id\": \"61a4222d88f5431c89666425\",\r\n        \"amount\": 50000.0,\r\n        \"balance\": 50000.0,\r\n        \"limit\": 500.0,\r\n        \"paymentMonth\": 1388.88,\r\n        \"coin\": \"SOLES\",\r\n        \"mouthsCredit\": 36,\r\n        \"startDate\": \"2021-11-26\",\r\n        \"paymentDate\": \"2021-12-26\",\r\n        \"exipirationDate\": \"2023-11-26\",\r\n        \"idCustomer\": \"61a10394666e6e3f7bd6db73\",\r\n        \"idAccount\": \"61a150fa727c8d5f17266d08\",\r\n        \"date\": \"2021-11-26\"\r\n    }"
+						},
+						"url": {
+							"raw": "https://ms-transactions.azurewebsites.net/api/v1/transaction/credit/61a4222d88f5431c89666425",
+							"protocol": "https",
+							"host": [
+								"ms-transactions",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"v1",
+								"transaction",
+								"credit",
+								"61a4222d88f5431c89666425"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/credit/{idCredit}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://ms-transactions.azurewebsites.net/api/v1/transaction/credit/61a81073288360492353791d",
+							"protocol": "https",
+							"host": [
+								"ms-transactions",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"v1",
+								"transaction",
+								"credit",
+								"61a81073288360492353791d"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Profiles",
+			"item": [
+				{
+					"name": "/{Iid}",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://ms-profile.azurewebsites.net/api/v1/profile/61a44879526a7610387f0e7a",
+							"protocol": "https",
+							"host": [
+								"ms-profile",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"v1",
+								"profile",
+								"61a44879526a7610387f0e7a"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/{id}",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"id\": \"61a13f219a28111d63e1d3bc\",\r\n        \"typeProfile\": \"PYME\",\r\n        \"montoMIn\": 1000\r\n}"
+						},
+						"url": {
+							"raw": "https://ms-profile.azurewebsites.net/api/v1/profile/61a13f219a28111d63e1d3bc",
+							"protocol": "https",
+							"host": [
+								"ms-profile",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"v1",
+								"profile",
+								"61a13f219a28111d63e1d3bc"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"typeProfile\": \"EMPRESARIAL PYME dsfds\",\r\n    \"montoMIn\": 0\r\n}"
+						},
+						"url": {
+							"raw": "https://ms-profile.azurewebsites.net/api/v1/profile/",
+							"protocol": "https",
+							"host": [
+								"ms-profile",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"v1",
+								"profile",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/{id}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://ms-profile.azurewebsites.net/api/v1/profile/619f96f2909ca86b63380be6",
+							"protocol": "https",
+							"host": [
+								"ms-profile",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"v1",
+								"profile",
+								"619f96f2909ca86b63380be6"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://ms-profile.azurewebsites.net/api/v1/profile/",
+							"protocol": "https",
+							"host": [
+								"ms-profile",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"v1",
+								"profile",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Transfer",
+			"item": [
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://ms-transfer.azurewebsites.net/api/v1/transfer/",
+							"protocol": "https",
+							"host": [
+								"ms-transfer",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"v1",
+								"transfer",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/{id}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://ms-transfer.azurewebsites.net/api/v1/transfer/61a1b62b6d85d6736e43ece4",
+							"protocol": "https",
+							"host": [
+								"ms-transfer",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"v1",
+								"transfer",
+								"61a1b62b6d85d6736e43ece4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "add/",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"typeTran\": \"INTERNA\",\r\n    \"idAccountOrigin\": \"61aa55fd1a407d6c26cb872a\",\r\n    \"idAccountDestiny\": \"61aa520a3e98e05c4b329ff6\",\r\n    \"amount\": 200,\r\n    \"date\": \"2021-12-03\"\r\n}\r\n"
+						},
+						"url": {
+							"raw": "https://ms-transfer.azurewebsites.net/api/v1/transfer/",
+							"protocol": "https",
+							"host": [
+								"ms-transfer",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"v1",
+								"transfer",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/{id}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": \"61ab99276adfc53dcfceb653\",\r\n    \"typeTran\": \"INTERNA\",\r\n    \"idAccountOrigin\": \"61aa55fd1a407d6c26cb872a\",\r\n    \"idAccountDestiny\": \"61aa520a3e98e05c4b329ff6\",\r\n    \"amount\": 50.0,\r\n    \"date\": \"2021-12-03\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://ms-transfer.azurewebsites.net/api/v1/transfer/61ab99276adfc53dcfceb653",
+							"protocol": "https",
+							"host": [
+								"ms-transfer",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"v1",
+								"transfer",
+								"61ab99276adfc53dcfceb653"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/{id}",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://ms-transfer.azurewebsites.net/api/v1/transfer/61ab973ec470820d085c30c0",
+							"protocol": "https",
+							"host": [
+								"ms-transfer",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"v1",
+								"transfer",
+								"61ab973ec470820d085c30c0"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Report",
+			"item": [
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://ms-reportes.azurewebsites.net/api/v1/report/",
+							"protocol": "https",
+							"host": [
+								"ms-reportes",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"v1",
+								"report",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/{id}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://ms-reportes.azurewebsites.net/api/v1/report/61a1b78062b0920f56cf3bc7",
+							"protocol": "https",
+							"host": [
+								"ms-reportes",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"v1",
+								"report",
+								"61a1b78062b0920f56cf3bc7"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"dailyAmount\": 200,\r\n    \"commission\": 5008787,\r\n    \"date\": \"2021-11-26\",\r\n    \"idTransfer\" : \"61a179f8bc66cc3501d1f8e9\"\r\n}"
+						},
+						"url": {
+							"raw": "https://ms-reportes.azurewebsites.net/api/v1/report/",
+							"protocol": "https",
+							"host": [
+								"ms-reportes",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"v1",
+								"report",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/{id}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": \"61a44931eace0812c0986e5e\",\r\n    \"dailyAmount\": 200.0,\r\n    \"commission\": 5008787.0,\r\n    \"date\": \"2021-11-26\",\r\n    \"idTransfer\": \"61a179f8bc66cc3501d1f8e9\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://ms-reportes.azurewebsites.net/api/v1/report/61a44931eace0812c0986e5e",
+							"protocol": "https",
+							"host": [
+								"ms-reportes",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"v1",
+								"report",
+								"61a44931eace0812c0986e5e"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/{id}",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://ms-reportes.azurewebsites.net/api/v1/report/61ad1c1f4b8dd139ac1851f6",
+							"protocol": "https",
+							"host": [
+								"ms-reportes",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"v1",
+								"report",
+								"61ad1c1f4b8dd139ac1851f6"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/getAverageBalance/{idCustomer}",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://ms-reportes.azurewebsites.net/api/v1/report/getAverageBalance/61a1035e666e6e3f7bd6db72",
+							"protocol": "https",
+							"host": [
+								"ms-reportes",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"v1",
+								"report",
+								"getAverageBalance",
+								"61a1035e666e6e3f7bd6db72"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/saveAverageBalance/{idCustomer}",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://ms-reportes.azurewebsites.net/api/v1/report/saveAverageBalance/61a1035e666e6e3f7bd6db72",
+							"protocol": "https",
+							"host": [
+								"ms-reportes",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"v1",
+								"report",
+								"saveAverageBalance",
+								"61a1035e666e6e3f7bd6db72"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/credits/{idCustomer}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://ms-reportes.azurewebsites.net/api/v1/report/credits/61a1035e666e6e3f7bd6db72",
+							"protocol": "https",
+							"host": [
+								"ms-reportes",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"v1",
+								"report",
+								"credits",
+								"61a1035e666e6e3f7bd6db72"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/getCommission",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"idProduct\": \"61ad43551283f31eac9830b3\",\r\n    \"startDate\": \"2021-12-05\",\r\n    \"endDate\": \"2021-12-05\"\r\n\r\n}\r\n//REPORTE\r\n//Comision de un producto\r\n//en un rango de ffeecha"
+						},
+						"url": {
+							"raw": "https://ms-reportes.azurewebsites.net/api/v1/report/getCommission",
+							"protocol": "https",
+							"host": [
+								"ms-reportes",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"v1",
+								"report",
+								"getCommission"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/getConsolidated/{idCustomer}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://ms-reportes.azurewebsites.net/api/v1/report/getConsolidated/61a1035e666e6e3f7bd6db72",
+							"protocol": "https",
+							"host": [
+								"ms-reportes",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"v1",
+								"report",
+								"getConsolidated",
+								"61a1035e666e6e3f7bd6db72"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

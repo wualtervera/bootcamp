@@ -1,0 +1,22 @@
+
+//Conexion a base de datos remoto
+//mongodb://bootcampmongodb:NoaWZiyLwiCNVwrhhKTBY5cN9QZ5L5tuupnA1mByoZsbGYCdC5fuZ5EIf0ynoM2T08hEaQ3SRwA0nJaBQSAEkA==@bootcampmongodb.mongo.cosmos.azure.com:10255/?ssl=true&retrywrites=false&replicaSet=globaldb&maxIdleTimeMS=120000&appName=@bootcampmongodb@
+
+
+Servicios en Azure
+
+https://ms-configserver.azurewebsites.net
+https://ms-gateway.azurewebsites.net
+https://ms-eurekaserver.azurewebsites.net
+https://ms-customer.azurewebsites.net
+https://ms-profile.azurewebsites.net
+https://ms-transactions.azurewebsites.net
+https://ms-reportes.azurewebsites.net
+https://ms-credits.azurewebsites.net
+https://ms-accounts.azurewebsites.net
+https://ms-transfer.azurewebsites.net
+
+ATENCION!
+Ejecutar lo servicios localmente cambair la coneccion en todos los servicios
+//Conexion a base de datos local
+//mongodb://localhost:27017/bootcamp

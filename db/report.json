@@ -1,0 +1,23 @@
+[{
+  "_id": {
+    "$oid": "61ad1ed557913a0952f7606d"
+  },
+  "idCustomer": "61a1035e666e6e3f7bd6db72",
+  "nameCustomer": "Steve Dev - Cta. Persona-",
+  "saldoDiarioMensual": 6400,
+  "date": {
+    "$date": "2021-12-05T05:00:00Z"
+  },
+  "_class": "com.nttdata.reportservice.infrestructure.model.dao.ReportDao"
+},{
+  "_id": {
+    "$oid": "61ad5c0157913a0952f7606e"
+  },
+  "idCustomer": "61a1035e666e6e3f7bd6db72",
+  "nameCustomer": "Steve Dev - Cta. Persona-",
+  "saldoDiarioMensual": 6500,
+  "date": {
+    "$date": "2021-12-05T05:00:00Z"
+  },
+  "_class": "com.nttdata.reportservice.infrestructure.model.dao.ReportDao"
+}]

@@ -1,0 +1,109 @@
+[{
+  "_id": {
+    "$oid": "61a1035e666e6e3f7bd6db72"
+  },
+  "dni": "40643250",
+  "ruc": "20729386572",
+  "name": "Steve",
+  "surname": "Dev - Cta. Persona-",
+  "telephone": "948580541",
+  "direction": "Trujillo Perú",
+  "email": "steve@gmail.com",
+  "password": "1234",
+  "role": "APODERADO",
+  "idProfile": "619f96f2909ca86b63380be6",
+  "date": {
+    "$date": "2021-11-25T05:00:00Z"
+  },
+  "_class": "com.nttdata.customer.infrastructure.model.dao.CustomerDAO"
+},{
+  "_id": {
+    "$oid": "61a10394666e6e3f7bd6db73"
+  },
+  "dni": "45665558",
+  "ruc": "",
+  "name": "Bill",
+  "surname": "Dev - Cta. VIP",
+  "telephone": "918580542",
+  "direction": "Trujillo Perú",
+  "email": "bill@gmail.com",
+  "password": "1234",
+  "role": "PROPIETARIO",
+  "idProfile": "61a13ec69a28111d63e1d3bb",
+  "date": {
+    "$date": "2021-11-25T05:00:00Z"
+  },
+  "_class": "com.nttdata.customer.infrastructure.model.dao.CustomerDAO"
+},{
+  "_id": {
+    "$oid": "61a1462a1ceb1534a6281d4a"
+  },
+  "dni": "40643250",
+  "ruc": "",
+  "name": "Mark",
+  "surname": "Dev - Cta. Empresarial",
+  "telephone": "939580541",
+  "direction": "Trujillo Perú",
+  "email": "mark@gmail.com",
+  "password": "",
+  "role": "PROPIETARIO",
+  "idProfile": "61a13df39a28111d63e1d3ba",
+  "date": {
+    "$date": "2021-11-26T05:00:00Z"
+  },
+  "_class": "com.nttdata.customer.infrastructure.model.dao.CustomerDAO"
+},{
+  "_id": {
+    "$oid": "61a146bd1ceb1534a6281d4b"
+  },
+  "dni": "30643217",
+  "ruc": "",
+  "name": "Elon",
+  "surname": "Musk - Cta - PYME",
+  "telephone": "991200541",
+  "direction": "Trujillo Perú",
+  "email": "elon@gmail.com",
+  "password": "",
+  "role": "PROPIETARIO",
+  "idProfile": "61a13f219a28111d63e1d3bc",
+  "date": {
+    "$date": "2021-11-26T05:00:00Z"
+  },
+  "_class": "com.nttdata.customer.infrastructure.model.dao.CustomerDAO"
+},{
+  "_id": {
+    "$oid": "61af9cd77449cf10456099bf"
+  },
+  "dni": "30643215",
+  "ruc": "",
+  "name": " TEST",
+  "surname": " - PYME",
+  "telephone": "991200541",
+  "direction": "Trujillo Perú",
+  "email": "elon@gmail.com",
+  "password": "",
+  "role": "PROPIETARIO",
+  "idProfile": "61a13f219a28111d63e1d3bc",
+  "date": {
+    "$date": "2021-11-26T05:00:00Z"
+  },
+  "_class": "com.nttdata.customer.infrastructure.model.dao.CustomerDAO"
+},{
+  "_id": {
+    "$oid": "61afebd67449cf10456099c0"
+  },
+  "dni": "30643215",
+  "ruc": "",
+  "name": " TEST 2",
+  "surname": " - PYME",
+  "telephone": "991200541",
+  "direction": "Trujillo Perú",
+  "email": "elon@gmail.com",
+  "password": "",
+  "role": "PROPIETARIO",
+  "idProfile": "61a13f219a28111d63e1d3bc",
+  "date": {
+    "$date": "2021-11-26T05:00:00Z"
+  },
+  "_class": "com.nttdata.customer.infrastructure.model.dao.CustomerDAO"
+}]

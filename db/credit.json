@@ -1,0 +1,227 @@
+[{
+  "_id": {
+    "$oid": "61a81073288360492353791d"
+  },
+  "amount": 2000,
+  "balance": 3000,
+  "limit": 2,
+  "paymentMonth": 1388.88,
+  "coin": "SOLES",
+  "mouthsCredit": 36,
+  "startDate": {
+    "$date": "2021-11-26T05:00:00Z"
+  },
+  "paymentDate": {
+    "$date": "2021-11-26T05:00:00Z"
+  },
+  "exipirationDate": {
+    "$date": "2021-11-26T05:00:00Z"
+  },
+  "idCustomer": "61a1035e666e6e3f7bd6db72",
+  "date": {
+    "$date": "2021-12-05T05:00:00Z"
+  },
+  "_class": "com.nttdata.credit.infrastructure.model.dao.CreditDAO"
+},{
+  "_id": {
+    "$oid": "61a8162b5834a2572eabf1c6"
+  },
+  "codeCredit": "01234567891",
+  "amount": 2000,
+  "balance": 2000,
+  "limit": 3000,
+  "paymentMonth": 1388.88,
+  "coin": "SOLES",
+  "mouthsCredit": 36,
+  "startDate": {
+    "$date": "2021-11-26T05:00:00Z"
+  },
+  "paymentDate": {
+    "$date": "2021-11-26T05:00:00Z"
+  },
+  "exipirationDate": {
+    "$date": "2021-11-26T05:00:00Z"
+  },
+  "idCustomer": "61a1462a1ceb1534a6281d4a",
+  "idAccount": "0",
+  "date": {
+    "$date": "2021-12-01T05:00:00Z"
+  },
+  "_class": "com.nttdata.credit.infrastructure.model.dao.CreditDAO"
+},{
+  "_id": {
+    "$oid": "61a841b6b941931838152034"
+  },
+  "codeCredit": "01234567893",
+  "amount": 2000,
+  "balance": 2000,
+  "limit": 3000,
+  "paymentMonth": 1388.88,
+  "coin": "SOLES",
+  "mouthsCredit": 36,
+  "startDate": {
+    "$date": "2021-11-26T05:00:00Z"
+  },
+  "paymentDate": {
+    "$date": "2021-11-26T05:00:00Z"
+  },
+  "exipirationDate": {
+    "$date": "2021-11-26T05:00:00Z"
+  },
+  "idCustomer": "61a146bd1ceb1534a6281d4b",
+  "idAccount": "0",
+  "date": {
+    "$date": "2021-12-01T05:00:00Z"
+  },
+  "_class": "com.nttdata.credit.infrastructure.model.dao.CreditDAO"
+},{
+  "_id": {
+    "$oid": "61a94b6732ee9274cdb4ff7a"
+  },
+  "codeCredit": "01234567894",
+  "amount": 3000,
+  "balance": 3000,
+  "limit": 3000,
+  "paymentMonth": 1388.88,
+  "coin": "SOLES",
+  "mouthsCredit": 36,
+  "startDate": {
+    "$date": "2021-11-26T05:00:00Z"
+  },
+  "paymentDate": {
+    "$date": "2021-11-26T05:00:00Z"
+  },
+  "exipirationDate": {
+    "$date": "2021-11-26T05:00:00Z"
+  },
+  "idCustomer": "61a1462a1ceb1534a6281d4a",
+  "date": {
+    "$date": "2021-12-02T05:00:00Z"
+  },
+  "_class": "com.nttdata.credit.infrastructure.model.dao.CreditDAO"
+},{
+  "_id": {
+    "$oid": "61a97faa64e965043dda0f74"
+  },
+  "codeCredit": "01234567895",
+  "amount": 3500,
+  "balance": 3500,
+  "limit": 3,
+  "paymentMonth": 150.88,
+  "coin": "SOLES",
+  "mouthsCredit": 36,
+  "startDate": {
+    "$date": "2021-11-26T05:00:00Z"
+  },
+  "paymentDate": {
+    "$date": "2021-11-26T05:00:00Z"
+  },
+  "exipirationDate": {
+    "$date": "2021-11-26T05:00:00Z"
+  },
+  "idCustomer": "61a1035e666e6e3f7bd6db72",
+  "date": {
+    "$date": "2021-12-02T05:00:00Z"
+  },
+  "_class": "com.nttdata.credit.infrastructure.model.dao.CreditDAO"
+},{
+  "_id": {
+    "$oid": "61aa5c2e51fb4776124ca90c"
+  },
+  "codeCredit": "01234567896",
+  "amount": 3500,
+  "balance": 3500,
+  "limit": 100,
+  "paymentMonth": 150.88,
+  "coin": "SOLES",
+  "mouthsCredit": 36,
+  "startDate": {
+    "$date": "2021-11-26T05:00:00Z"
+  },
+  "paymentDate": {
+    "$date": "2021-11-26T05:00:00Z"
+  },
+  "exipirationDate": {
+    "$date": "2021-11-26T05:00:00Z"
+  },
+  "idCustomer": "61a1462a1ceb1534a6281d4a",
+  "date": {
+    "$date": "2021-12-03T05:00:00Z"
+  },
+  "_class": "com.nttdata.credit.infrastructure.model.dao.CreditDAO"
+},{
+  "_id": {
+    "$oid": "61afced8571c482dd8f5f58b"
+  },
+  "codeCredit": "01234567897",
+  "amount": 3500,
+  "balance": 3500,
+  "limit": 100,
+  "paymentMonth": 150.88,
+  "coin": "SOLES",
+  "mouthsCredit": 36,
+  "startDate": {
+    "$date": "2021-11-26T05:00:00Z"
+  },
+  "paymentDate": {
+    "$date": "2021-11-26T05:00:00Z"
+  },
+  "exipirationDate": {
+    "$date": "2021-11-26T05:00:00Z"
+  },
+  "idCustomer": "61af9cd77449cf10456099bf",
+  "date": {
+    "$date": "2021-12-07T05:00:00Z"
+  },
+  "_class": "com.nttdata.credit.infrastructure.model.dao.CreditDAO"
+},{
+  "_id": {
+    "$oid": "61afee63571c482dd8f5f58c"
+  },
+  "codeCredit": "01234567898",
+  "amount": 3500,
+  "balance": 4500,
+  "limit": 100,
+  "paymentMonth": 150.88,
+  "coin": "SOLES",
+  "mouthsCredit": 36,
+  "startDate": {
+    "$date": "2021-11-26T05:00:00Z"
+  },
+  "paymentDate": {
+    "$date": "2021-11-26T05:00:00Z"
+  },
+  "exipirationDate": {
+    "$date": "2021-11-26T05:00:00Z"
+  },
+  "idCustomer": "61afebd67449cf10456099c0",
+  "date": {
+    "$date": "2021-12-07T05:00:00Z"
+  },
+  "_class": "com.nttdata.credit.infrastructure.model.dao.CreditDAO"
+},{
+  "_id": {
+    "$oid": "61aff201571c482dd8f5f58d"
+  },
+  "codeCredit": "01234567899",
+  "amount": 3500,
+  "balance": 500,
+  "limit": 100,
+  "paymentMonth": 150.88,
+  "coin": "SOLES",
+  "mouthsCredit": 36,
+  "startDate": {
+    "$date": "2021-11-26T05:00:00Z"
+  },
+  "paymentDate": {
+    "$date": "2021-11-26T05:00:00Z"
+  },
+  "exipirationDate": {
+    "$date": "2021-11-26T05:00:00Z"
+  },
+  "idCustomer": "61a10394666e6e3f7bd6db73",
+  "date": {
+    "$date": "2021-12-07T05:00:00Z"
+  },
+  "_class": "com.nttdata.credit.infrastructure.model.dao.CreditDAO"
+}]

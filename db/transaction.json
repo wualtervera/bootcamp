@@ -1,0 +1,105 @@
+[{
+  "_id": {
+    "$oid": "61ad51473e1c164ad2815989"
+  },
+  "input": 50,
+  "ouput": 0,
+  "typeTran": "CUENTA",
+  "idProduct": "61ad42c11283f31eac9830b2",
+  "commissionTransaction": 0.2,
+  "date": {
+    "$date": "2021-12-05T05:00:00Z"
+  },
+  "_class": "com.nttdata.transactions.infrestructure.model.dao.TransactionsDao"
+},{
+  "_id": {
+    "$oid": "61ad518f3e1c164ad281598a"
+  },
+  "input": 100,
+  "ouput": 0,
+  "typeTran": "CUENTA",
+  "idProduct": "61ad42c11283f31eac9830b2",
+  "commissionTransaction": 0.2,
+  "date": {
+    "$date": "2021-12-05T05:00:00Z"
+  },
+  "_class": "com.nttdata.transactions.infrestructure.model.dao.TransactionsDao"
+},{
+  "_id": {
+    "$oid": "61ad51bf3e1c164ad281598b"
+  },
+  "input": 0,
+  "ouput": 50,
+  "typeTran": "CUENTA",
+  "idProduct": "61ad43551283f31eac9830b3",
+  "commissionTransaction": 0.2,
+  "date": {
+    "$date": "2021-12-05T05:00:00Z"
+  },
+  "_class": "com.nttdata.transactions.infrestructure.model.dao.TransactionsDao"
+},{
+  "_id": {
+    "$oid": "61ad51e33e1c164ad281598c"
+  },
+  "input": 100,
+  "ouput": 0,
+  "typeTran": "CUENTA",
+  "idProduct": "61ad43551283f31eac9830b3",
+  "commissionTransaction": 0.2,
+  "date": {
+    "$date": "2021-12-05T05:00:00Z"
+  },
+  "_class": "com.nttdata.transactions.infrestructure.model.dao.TransactionsDao"
+},{
+  "_id": {
+    "$oid": "61ad51f03e1c164ad281598d"
+  },
+  "input": 50,
+  "ouput": 0,
+  "typeTran": "CUENTA",
+  "idProduct": "61ad43551283f31eac9830b3",
+  "commissionTransaction": 0.2,
+  "date": {
+    "$date": "2021-12-05T05:00:00Z"
+  },
+  "_class": "com.nttdata.transactions.infrestructure.model.dao.TransactionsDao"
+},{
+  "_id": {
+    "$oid": "61ad5a82fe2a8e7274f881d9"
+  },
+  "input": 100,
+  "ouput": 0,
+  "typeTran": "CUENTA",
+  "idProduct": "61ad4898cc972e2620ff166c",
+  "commissionTransaction": 2,
+  "date": {
+    "$date": "2021-12-05T05:00:00Z"
+  },
+  "_class": "com.nttdata.transactions.infrestructure.model.dao.TransactionsDao"
+},{
+  "_id": {
+    "$oid": "61ad5a9ffe2a8e7274f881da"
+  },
+  "input": 200,
+  "ouput": 0,
+  "typeTran": "CUENTA",
+  "idProduct": "61ad4898cc972e2620ff166c",
+  "commissionTransaction": 2,
+  "date": {
+    "$date": "2021-12-05T05:00:00Z"
+  },
+  "_class": "com.nttdata.transactions.infrestructure.model.dao.TransactionsDao"
+},{
+  "_id": {
+    "$oid": "61ad5aa5fe2a8e7274f881db"
+  },
+  "input": 0,
+  "ouput": 50,
+  "typeTran": "CUENTA",
+  "idProduct": "61ad4898cc972e2620ff166c",
+  "commissionTransaction": 2,
+  "date": {
+    "$date": "2021-12-05T05:00:00Z"
+  },
+  "_class": "com.nttdata.transactions.infrestructure.model.dao.TransactionsDao"
+}]
