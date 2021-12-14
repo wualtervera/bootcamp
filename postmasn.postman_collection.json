@@ -21,7 +21,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"amount\": 3500.0,\r\n     \"codeCredit\": \"01234567896\",\r\n     \"balance\": 3500.0,\r\n    \"limit\": 100.0,\r\n    \"mouthsCredit\": 36,\r\n    \"paymentMonth\": 150.88,\r\n    \"coin\": \"SOLES\",\r\n    \"startDate\": \"2021-11-26\",\r\n    \"paymentDate\": \"2021-11-26\",\r\n    \"exipirationDate\": \"2021-11-26\",\r\n    \"idCustomer\": \"61a1035e666e6e3f7bd6db72\",\r\n    \"idAccount\" : 0,\r\n    \"date\": \"2021-11-26\"\r\n}",
+							"raw": "{\r\n    \"amount\": 3500.0,\r\n     \"codeCredit\": \"01234567899\",\r\n     \"balance\": 500.0,\r\n    \"limit\": 100.0,\r\n    \"mouthsCredit\": 36,\r\n    \"paymentMonth\": 150.88,\r\n    \"coin\": \"SOLES\",\r\n    \"startDate\": \"2021-11-26\",\r\n    \"paymentDate\": \"2021-11-26\",\r\n    \"exipirationDate\": \"2021-11-26\",\r\n    \"idCustomer\": \"61a10394666e6e3f7bd6db73\",\r\n    \"idAccount\" : 0,\r\n    \"date\": \"2021-11-26\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -160,7 +160,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/api/v1/credit/customer/61a1035e666e6e3f7bd6db72",
+							"raw": "http://localhost:8080/api/v1/credit/customer/61a10394666e6e3f7bd6db73",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -171,7 +171,7 @@
 								"v1",
 								"credit",
 								"customer",
-								"61a1035e666e6e3f7bd6db72"
+								"61a10394666e6e3f7bd6db73"
 							]
 						}
 					},
@@ -195,7 +195,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"dni\": \"30643217\",\r\n    \"ruc\": \"\",\r\n    \"name\": \"Elon dfsdfsfds\",\r\n    \"surname\": \"Musk\",\r\n    \"telephone\": \"991200541\",\r\n    \"direction\": \"Trujillo Perú\",\r\n    \"email\": \"elon@gmail.com\",\r\n    \"password\": \"\",\r\n    \"role\": \"PROPIETARIO\",\r\n    \"idProfile\": \"619f96f2909ca86b63380be6\",\r\n    \"date\": \"2021-11-26\"\r\n}",
+							"raw": "{\r\n    \"dni\": \"30643215\",\r\n    \"ruc\": \"\",\r\n    \"name\": \" TEST 2\",\r\n    \"surname\": \" - PYME\",\r\n    \"telephone\": \"991200541\",\r\n    \"direction\": \"Trujillo Perú\",\r\n    \"email\": \"elon@gmail.com\",\r\n    \"password\": \"\",\r\n    \"role\": \"PROPIETARIO\",\r\n    \"idProfile\": \"61a13f219a28111d63e1d3bc\",\r\n    \"date\": \"2021-11-26\"\r\n}\r\n\r\n\r\n/*{\r\n    \"dni\": \"30643217\",\r\n    \"ruc\": \"\",\r\n    \"name\": \"Elon dfsdfsfds\",\r\n    \"surname\": \"Musk\",\r\n    \"telephone\": \"991200541\",\r\n    \"direction\": \"Trujillo Perú\",\r\n    \"email\": \"elon@gmail.com\",\r\n    \"password\": \"\",\r\n    \"role\": \"PROPIETARIO\",\r\n    \"idProfile\": \"619f96f2909ca86b63380be6\",\r\n    \"date\": \"2021-11-26\"\r\n}*/",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -312,7 +312,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/api/v1/customers/61a1035e666e6e3f7bd6db72",
+							"raw": "http://localhost:8080/api/v1/customers/61a1462a1ceb1534a6281d4a",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -322,7 +322,7 @@
 								"api",
 								"v1",
 								"customers",
-								"61a1035e666e6e3f7bd6db72"
+								"61a1462a1ceb1534a6281d4a"
 							]
 						}
 					},
@@ -429,7 +429,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n        \"numberAccount\": \"1234567896\",\r\n        \"balance\": 4950.0,\r\n        \"typeAccount\": \"CCORIENTE\",\r\n        \"typeCard\": \"VISA_DEBITO\",\r\n        \"numberCard\": \"5782749714135257\",\r\n        \"ccv\": \"102\",\r\n        \"exipirationCard\": \"2023-12-05\",\r\n        \"coin\": \"NUEVO_SOL\",\r\n        \"minAmount\": 0,\r\n        \"limitMaxTransac\": 0,\r\n        \"idcustomer\": \"61a1462a1ceb1534a6281d4a\",\r\n        \"commissionTransaction\": 2,\r\n        \"commissionMaintenance\": 0.2,\r\n        \"date\": \"2021-12-01\"\r\n}\r\n\r\n\r\n\r\n/*\r\ntypeAccount: CCORIENTE, CAHORRO,CPLAZOFIJO\r\n*/\r\n\r\n/*\r\nCUENTA EMPRESARIAL\r\n\r\n {\r\n        \"numberAccount\": \"1234567896\",\r\n        \"balance\": 4950.0,\r\n        \"typeAccount\": \"CCORIENTE\",\r\n        \"typeCard\": \"VISA_DEBITO\",\r\n        \"numberCard\": \"5782749714135257\",\r\n        \"ccv\": \"102\",\r\n        \"exipirationCard\": \"2023-12-05\",\r\n        \"coin\": \"NUEVO_SOL\",\r\n        \"minAmount\": 0,\r\n        \"limitMaxTransac\": 0,\r\n        \"idcustomer\": \"61a1462a1ceb1534a6281d4a\",\r\n        \"commissionTransaction\": 2,\r\n        \"commissionMaintenance\": 0.2,\r\n        \"date\": \"2021-12-01\"\r\n    }*/",
+							"raw": "{\r\n        \"numberAccount\": \"12345678926\",\r\n        \"balance\": 4950.0,\r\n        \"typeAccount\": \"CAHORRO\",\r\n        \"typeCard\": \"VISA_DEBITO\",\r\n        \"numberCard\": \"5782749714135257\",\r\n        \"ccv\": \"102\",\r\n        \"exipirationCard\": \"2023-12-05\",\r\n        \"coin\": \"NUEVO_SOL\",\r\n        \"minAmount\": 0,\r\n        \"limitMaxTransac\": 5,\r\n        \"idcustomer\": \"61a10394666e6e3f7bd6db73\",\r\n        \"commissionTransaction\": 0,\r\n        \"commissionMaintenance\": 0,\r\n        \"date\": \"2021-12-01\"\r\n}\r\n\r\n\r\n\r\n/*\r\ntypeAccount: CCORIENTE, CAHORRO,CPLAZOFIJO\r\n*/\r\n\r\n/*\r\nCUENTA EMPRESARIAL\r\n\r\n {\r\n        \"numberAccount\": \"1234567896\",\r\n        \"balance\": 4950.0,\r\n        \"typeAccount\": \"CCORIENTE\",\r\n        \"typeCard\": \"VISA_DEBITO\",\r\n        \"numberCard\": \"5782749714135257\",\r\n        \"ccv\": \"102\",\r\n        \"exipirationCard\": \"2023-12-05\",\r\n        \"coin\": \"NUEVO_SOL\",\r\n        \"minAmount\": 0,\r\n        \"limitMaxTransac\": 0,\r\n        \"idcustomer\": \"61a1462a1ceb1534a6281d4a\",\r\n        \"commissionTransaction\": 2,\r\n        \"commissionMaintenance\": 0.2,\r\n        \"date\": \"2021-12-01\"\r\n    }*/",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -496,7 +496,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/api/v1/account/61ad4898cc972e2620ff166c",
+							"raw": "http://localhost:8080/api/v1/account/61af8e500c8c38466dbd51ab",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -506,7 +506,7 @@
 								"api",
 								"v1",
 								"account",
-								"61ad4898cc972e2620ff166c"
+								"61af8e500c8c38466dbd51ab"
 							]
 						}
 					},
@@ -524,7 +524,7 @@
 							}
 						],
 						"url": {
-							"raw": "http://localhost:8080/api/v1/account/61ad48fe5c2815607ca67820",
+							"raw": "http://localhost:8080/api/v1/account/61afd6905b3a8f20b3ce9dd3",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -534,7 +534,7 @@
 								"api",
 								"v1",
 								"account",
-								"61ad48fe5c2815607ca67820"
+								"61afd6905b3a8f20b3ce9dd3"
 							]
 						}
 					},
@@ -568,7 +568,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:8080/api/v1/account/customer/61a1035e666e6e3f7bd6db72",
+							"raw": "http://localhost:8080/api/v1/account/customer/61afebd67449cf10456099c0",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -579,7 +579,7 @@
 								"v1",
 								"account",
 								"customer",
-								"61a1035e666e6e3f7bd6db72"
+								"61afebd67449cf10456099c0"
 							]
 						}
 					},
@@ -1356,6 +1356,315 @@
 								"report",
 								"getConsolidated",
 								"61a1035e666e6e3f7bd6db72"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "wallet",
+			"item": [
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/wallet",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"wallet"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/{id}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/wallet/61b1879626ed670e4016e9a2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"wallet",
+								"61b1879626ed670e4016e9a2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"typeDcoument\": \"DNI\",\r\n    \"numberDocument\": \"83584631\",\r\n    \"numberPhone\": \"908562361\",\r\n    \"imeiPhone\": \"B4DS4D4S41DS56RERGGH\",\r\n    \"email\": \"dan@gmail.com\",\r\n    \"balance\": 500\r\n    \r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/wallet",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"wallet"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/{id}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"typeDcoument\": \"PASPORT\",\r\n    \"numberDocument\": \"73584634\",\r\n    \"numberPhone\": \"928562360\",\r\n    \"imeiPhone\": \"A4DS4D4S41DS56RERGGH\",\r\n    \"email\": \"wvera@gmail.com\",\r\n    \"balance\": 1000.0\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8010/api/v2/wallet/61b1879626ed670e4016e9a2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8010",
+							"path": [
+								"api",
+								"v2",
+								"wallet",
+								"61b1879626ed670e4016e9a2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/{id}",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/wallet/61b56ef6b2f544496efcd5cc",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"wallet",
+								"61b56ef6b2f544496efcd5cc"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/phone/{id}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/wallet/phone/928562360",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"wallet",
+								"phone",
+								"928562360"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/getAllRedis",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/wallet/getAllRedis",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"wallet",
+								"getAllRedis"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "walletTransaction",
+			"item": [
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/walletTransaction",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"walletTransaction"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/{id}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/walletTransaction/61b4e2ffb66a291ab0947f30",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"walletTransaction",
+								"61b4e2ffb66a291ab0947f30"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"originNumberPhone\": \"928562360\",\r\n    \"destinyNumberPhone\": \"908562361\",\r\n    \"amount\": 50    \r\n}\r\n\r\n\r\n/*\r\n{\r\n    \"typeDcoument\": \"DNI\",\r\n    \"numberDocument\": \"73584634\",\r\n    \"numberPhone\": \"928562364\",\r\n    \"imeiPhone\": \"B4DS4D4S41DS56RERGGH\",\r\n    \"email\": \"dan@gmail.com\",\r\n    \"balance\": 500\r\n    \r\n}\r\n\r\n*/"
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/walletTransaction",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"walletTransaction"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/{id}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"typeDcoument\": \"PASPORT\",\r\n    \"numberDocument\": \"73584634\",\r\n    \"numberPhone\": \"928562360\",\r\n    \"imeiPhone\": \"A4DS4D4S41DS56RERGGH\",\r\n    \"email\": \"wvera@gmail.com\",\r\n    \"balance\": 1000.0\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8010/api/v2/wallet/61b1879626ed670e4016e9a2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8010",
+							"path": [
+								"api",
+								"v2",
+								"wallet",
+								"61b1879626ed670e4016e9a2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/{id}",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/walletTransaction/61b7725cb045475dab23945f",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"walletTransaction",
+								"61b7725cb045475dab23945f"
 							]
 						}
 					},

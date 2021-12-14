@@ -1,0 +1,97 @@
+[{
+  "_id": {
+    "$oid": "61b78b9a0befed7eefb53a13"
+  },
+  "originNumberPhone": "908562361",
+  "destinyNumberPhone": "928562360",
+  "amount": 100,
+  "state": "SUCCESSFUL",
+  "createAt": {
+    "$date": "2021-12-13T18:05:56.501Z"
+  },
+  "_class": "com.nttdata.mobilewallettransactionservice.infrestructure.model.dao.WalletTransactionDao"
+},{
+  "_id": {
+    "$oid": "61b78c1cceadf871d10d1747"
+  },
+  "originNumberPhone": "908562361",
+  "destinyNumberPhone": "928562360",
+  "amount": 100,
+  "state": "SUCCESSFUL",
+  "createAt": {
+    "$date": "2021-12-13T18:08:28.758Z"
+  },
+  "_class": "com.nttdata.mobilewallettransactionservice.infrestructure.model.dao.WalletTransactionDao"
+},{
+  "_id": {
+    "$oid": "61b78cc5f1fc8260fbdb49e2"
+  },
+  "originNumberPhone": "908562361",
+  "destinyNumberPhone": "928562360",
+  "amount": 100,
+  "state": "SUCCESSFUL",
+  "createAt": {
+    "$date": "2021-12-13T18:11:17.776Z"
+  },
+  "_class": "com.nttdata.mobilewallettransactionservice.infrestructure.model.dao.WalletTransactionDao"
+},{
+  "_id": {
+    "$oid": "61b790941670311825e92d2a"
+  },
+  "originNumberPhone": "928562360",
+  "destinyNumberPhone": "908562361",
+  "amount": 200,
+  "state": "SUCCESSFUL",
+  "createAt": {
+    "$date": "2021-12-13T18:27:32.540Z"
+  },
+  "_class": "com.nttdata.mobilewallettransactionservice.infrestructure.model.dao.WalletTransactionDao"
+},{
+  "_id": {
+    "$oid": "61b7910b461c8520e05e255f"
+  },
+  "originNumberPhone": "928562360",
+  "destinyNumberPhone": "908562361",
+  "amount": 200,
+  "state": "SUCCESSFUL",
+  "createAt": {
+    "$date": "2021-12-13T18:29:31.128Z"
+  },
+  "_class": "com.nttdata.mobilewallettransactionservice.infrestructure.model.dao.WalletTransactionDao"
+},{
+  "_id": {
+    "$oid": "61b7bb266e2a95252b7b0797"
+  },
+  "originNumberPhone": "928562360",
+  "destinyNumberPhone": "908562361",
+  "amount": 50,
+  "state": "SUCCESSFUL",
+  "createAt": {
+    "$date": "2021-12-13T21:29:10.223Z"
+  },
+  "_class": "com.nttdata.mobilewallettransactionservice.infrestructure.model.dao.WalletTransactionDao"
+},{
+  "_id": {
+    "$oid": "61b7bf710d57a83c7fe5b9b9"
+  },
+  "originNumberPhone": "928562360",
+  "destinyNumberPhone": "908562361",
+  "amount": 50,
+  "state": "SUCCESSFUL",
+  "createAt": {
+    "$date": "2021-12-13T21:47:28.389Z"
+  },
+  "_class": "com.nttdata.mobilewallettransactionservice.infrestructure.model.dao.WalletTransactionDao"
+},{
+  "_id": {
+    "$oid": "61b904661a746f618136a19f"
+  },
+  "originNumberPhone": "928562360",
+  "destinyNumberPhone": "908562361",
+  "amount": 50,
+  "state": "SUCCESSFUL",
+  "createAt": {
+    "$date": "2021-12-14T20:53:57.933Z"
+  },
+  "_class": "com.nttdata.mobilewallettransactionservice.infrestructure.model.dao.WalletTransactionDao"
+}]
