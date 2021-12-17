@@ -1,4 +1,6 @@
 mongo:
     image: mongo
+    container_name: mongodb
+    hostname: localhost
     ports:
         -  27017:27017

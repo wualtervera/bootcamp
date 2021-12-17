@@ -1541,6 +1541,183 @@
 			]
 		},
 		{
+			"name": "Bootcoin",
+			"item": [
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/bootcoin",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"bootcoin"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/{id}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/bootcoin/61ba60ddd74c4c762cdc0f38",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"bootcoin",
+								"61ba60ddd74c4c762cdc0f38"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"typeDcoument\": \"DNI\",\r\n    \"numberDocument\": \"83584631\",\r\n    \"numberPhone\": \"908562361\",\r\n    \"email\": \"dan@gmail.com\",\r\n    \"amountBooCoins\": 100    \r\n}\r\n"
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/bootcoin",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"bootcoin"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/{id}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"typeDcoument\": \"PASPORT\",\r\n    \"numberDocument\": \"73584634\",\r\n    \"numberPhone\": \"928562360\",\r\n    \"imeiPhone\": \"A4DS4D4S41DS56RERGGH\",\r\n    \"email\": \"wvera@gmail.com\",\r\n    \"balance\": 1000.0\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8010/api/v2/bootcoin/61b1879626ed670e4016e9a2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8010",
+							"path": [
+								"api",
+								"v2",
+								"bootcoin",
+								"61b1879626ed670e4016e9a2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/{id}",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/bootcoin/61bb9b7ca1653877a5364540",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"bootcoin",
+								"61bb9b7ca1653877a5364540"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/phone/{id}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/bootcoin/phone/928562360",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"bootcoin",
+								"phone",
+								"928562360"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/getAllRedis",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/bootcoin/getAllRedis",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"bootcoin",
+								"getAllRedis"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
 			"name": "walletTransaction",
 			"item": [
 				{
@@ -1665,6 +1842,282 @@
 								"v1",
 								"walletTransaction",
 								"61b7725cb045475dab23945f"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "BootcoinTransaction",
+			"item": [
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/bootcoinTransaction",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"bootcoinTransaction"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/{id}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/bootcoinTransaction/61bbb0fbef6edb596ba84430",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"bootcoinTransaction",
+								"61bbb0fbef6edb596ba84430"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"phoneSeller\": \"908562361\",\r\n    \"phoneBuyer\": \"928562360\",    \r\n    \"amountSoles\": 400,\r\n    \"amountCoins\": 5,\r\n    \"typePayment\": \"YANKY\"\r\n}\r\n\r\n//1(COMPRA)\r\n//2(VENTA)\r\n\r\n//amountCoins = 5\r\n//TasaVenta = 80 soles\r\n//amountSoles = 400(amountCoins*TasaVenta)"
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/bootcoinTransaction",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"bootcoinTransaction"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/{id}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"typeDcoument\": \"PASPORT\",\r\n    \"numberDocument\": \"73584634\",\r\n    \"numberPhone\": \"928562360\",\r\n    \"imeiPhone\": \"A4DS4D4S41DS56RERGGH\",\r\n    \"email\": \"wvera@gmail.com\",\r\n    \"balance\": 1000.0\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/bootcoinTransaction/61b1879626ed670e4016e9a2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"bootcoinTransaction",
+								"61b1879626ed670e4016e9a2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/{id}",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/bootcoinTransaction/61bba8a7bd695c5194e47d2e",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"bootcoinTransaction",
+								"61bba8a7bd695c5194e47d2e"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Tasas",
+			"item": [
+				{
+					"name": "/",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/tasas",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"tasas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/{id}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/tasas/61bbbc812369e9457aba1e90",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"tasas",
+								"61bbbc812369e9457aba1e90"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"tasaCompra\": 50,\r\n    \"tasaVenta\": 80\r\n}\r\n"
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/tasas",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"tasas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/{id}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"tasaCompra\": 50.0,\r\n    \"tasaVenta\": 100.0\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/v1/tasas/61bbbc812369e9457aba1e90",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"tasas",
+								"61bbbc812369e9457aba1e90"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/{id}",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/tasas/61bbc1c92369e9457aba1e91",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"tasas",
+								"61bbc1c92369e9457aba1e91"
 							]
 						}
 					},
